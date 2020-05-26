@@ -12,3 +12,21 @@
 #    2. Print the sum of d plus your double variable to a scale of one decimal place on a new line.
 #    3. Concatenate s with the string you read as input and print the result on a new line.
 
+i = 4
+d = 4.0
+s = 'HackerRank '
+# Declare second integer, double, and String variables
+
+# Read and save an integer, double, and String to your variables.
+userint = int(input())
+userdouble = float(input())
+userstring = str(input())
+# Print the sum of both integer variables on a new line.
+print(i + userint)
+
+# Print the sum of the double variables on a new line.
+print(d + userdouble)
+
+# Concatenate and print the String variables on a new line
+# the 's' variable above should be printed first.
+print(s + userstring)
