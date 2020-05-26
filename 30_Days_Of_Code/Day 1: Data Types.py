@@ -2,10 +2,10 @@
 # Data Types
 
 # Task
-# Complete the code in the editor below. The variables i, d, and s are already declared and
+# Complete the code in the editor below. The variables i, d, and s are already declared and,
 # initialized for you, You Must:
 # 1. Declare 3 variables: one of type int, one of type double, and one of type String.
-# 2. Read 3 lines of input from stdin (according to the sequence given in hte input format
+# 2. Read 3 lines of input from stdin (according to the sequence given in the input format.
 #    section below) and initialize your 3 variables.
 # 3. Use the + operator to perform the following operations:
 #    1. Print the sum of i plus your int variable on a new line.
