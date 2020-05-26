@@ -16,3 +16,11 @@
 # 3 + 2 -> 5
 # 3 - 2 -> 1
 # 3 * 2 -> 6
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+
+    print(a + b)
+    print(a - b)
+    print(a * b)
