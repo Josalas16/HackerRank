@@ -30,3 +30,29 @@
 # round(totalCost) = 15
 # We round totalCost to the nearest dollar (integer) and then print our result, 15.
 
+# Sample Input
+# 12.00
+# 20
+# 8
+
+# Sample Output
+# 15
+
+import math
+import os
+import random
+import re
+import sys
+
+
+# Complete the following to solve the function below
+def solve(meal_cost, tip_percent, tax_percent):
+    print(round(meal_cost + (meal_cost * (tip_percent / 100)) + (meal_cost * (tax_percent / 100))))
+
+
+if __name__ == '__main__':
+    meal_cost = float(input())
+    tip_percent = int(input())
+    tax_percent = int(input())
+
+    solve(meal_cost, tip_percent, tax_percent)
