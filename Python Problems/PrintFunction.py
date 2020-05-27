@@ -1,7 +1,7 @@
 # Print Function
 
 # Read an integer N.
-# Without usng any string methods, tey to print the following:
+# Without using any string methods, try to print the following:
 # 123 ... N
 # Note that "..." represents the values in between
 
