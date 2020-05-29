@@ -34,3 +34,13 @@
 # Sample Output
 # [-10. -8. 4. 3. 2. 1.]
 
+import numpy as np
+
+# Complete this function
+# use np.array
+def arrays(arr):
+
+
+arr = input().strip().split(' ')
+result = arrays(arr)
+print(result)
