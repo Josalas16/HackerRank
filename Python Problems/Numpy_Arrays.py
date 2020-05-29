@@ -36,9 +36,11 @@
 
 import numpy as np
 
+
 # Complete this function
 # use np.array
 def arrays(arr):
+    return np.array(arr[::-1], float)
 
 
 arr = input().strip().split(' ')
