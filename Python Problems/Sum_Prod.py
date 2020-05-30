@@ -25,3 +25,4 @@
 # The sum along axis 0 = [4 6]
 # The product of this sum = 24
 
+import numpy as np
