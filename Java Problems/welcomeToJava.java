@@ -1,3 +1,4 @@
+
 // Problem
 // Welcome to the world of java! in this challenge, we practice printing the stdout.
 // The code stubs in your editor declare a Solution class and a main method.
