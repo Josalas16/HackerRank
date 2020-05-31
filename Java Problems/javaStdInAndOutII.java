@@ -40,6 +40,7 @@ public class javaStdInAndOutII {
         Double d = scan.nextDouble();
         scan.nextLine();
         String s = scan.nextLine();
+        scan.close();
 
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
