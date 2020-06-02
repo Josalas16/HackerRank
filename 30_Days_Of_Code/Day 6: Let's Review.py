@@ -41,3 +41,10 @@
 # space separated strings; the first string contains the ordered characters from S's even indices (Rn),
 # and the second string contains the ordered characters from S's odd indices (ak).
 
+N = int(input())
+lst = []
+if(N >= 1 and N <= 10):
+    for i in range(N):
+        lst.append(input())
+for str in lst:
+    print("{} {}".format(str[::2], str[1::2]))
