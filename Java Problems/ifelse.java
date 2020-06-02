@@ -23,6 +23,12 @@ import java.util.Scanner;
 // Sample Output 0
 // Weird
 
+// Explanation
+// Sample Case 0: n = 3
+// n is odd numbers are weird, so we print weird
+
+// Sample Case 1: n = 24
+// n > 20 and n is even, so it isnt weird. thus, we print Not Weird
 public class ifelse {
     private static final Scanner scanner = new Scanner(System.in);
 
